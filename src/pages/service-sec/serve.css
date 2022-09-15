@@ -1,0 +1,35 @@
+.serv-head h3 {
+    padding: 35px 0px 15px 120px;
+}
+
+.serv-head p {
+    padding: 0px 800px 25px 120px;
+}
+
+.cnt {
+    border-top: 1px solid;
+}
+
+.d-flex.prmg {
+    padding: 20px 0px 60px 0px;
+}
+
+.planing p {
+    padding-right: 10rem;
+    padding-top: 1rem;
+}
+.ps5 {
+    padding-left: 6rem!important;
+}
+span.ver-lin {
+    content: "";
+    width: 73rem;
+    position: absolute;
+    background-color: #d9dde7;
+    height: 8px;
+    transform: rotate(90deg);
+    top: 225%;
+    left: 4%;
+    box-shadow: 0px 0px 13px 0px #5e4cbb;
+    border-radius: 20px;
+}

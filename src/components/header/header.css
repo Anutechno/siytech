@@ -1,0 +1,25 @@
+nav.bgclr.navbar.navbar-expand-lg.navbar-light {
+    box-shadow: 0px 0px 5px 0px #01246a;
+    z-index: 1;
+
+}
+
+.fld {
+    margin: 0;
+}
+
+img.logo {
+    width: 50%;
+    padding: 5px;
+}
+
+.nav-elm a {
+    padding-left: 1.8rem !important;
+    color: #000;
+}
+
+.nav-elm a:hover {
+    color: #01246a;
+    box-shadow: 0px 0px 3px 0px #01246a;
+    font-weight: 600;
+}

@@ -1,0 +1,27 @@
+.secfoot {
+    background-color: #01246a;
+}
+img.appl {
+    width: 40%;
+}
+.fnt p {
+    font-size: 11px;
+    font-weight: 500;
+    color: #fff;
+}
+ul.social-ic {
+    list-style: none;
+}
+ul.social-ic li {
+    text-decoration: none;
+    padding-left: 18px;
+    font-size: 19px;
+    color: #fff;
+}
+.lnk a {
+    padding: 5px 0px;
+}
+.lnk a:hover {
+color: #01246a;
+font-weight: 600;
+}

@@ -1,38 +1,201 @@
-.App {
-  text-align: center;
+#slider_1 {
+    background-size: 100% 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#slider_1 {
+    transition: .9s;
+    width: 100%;
+    height: 100%;
+    background: url(https://www.cdnsol.com/images/landscape_cdn.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+    display: flex;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#slider_1 .banner-shape {
+    right: -7em;
+    top: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#slider_1 .banner-shape {
+    width: 700px;
+    height: 700px;
+    position: absolute !important;
+    right: -1em;
+    top: 0;
 }
 
-.App-link {
-  color: #61dafb;
+#slider_1 .banner-shape .banner-hexa {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icons-hexa {
+    position: absolute;
+    z-index: 1;
+}
+
+.icons-hexa img {
+    width: 60%;
+}
+
+.icons-hexa:hover {
+    transform: scale(1.1);
+}
+
+.icons-hexa-1 {
+    top: 16%;
+    left: 20%;
+}
+
+@media (min-width: 1920px) {
+    .icons-hexa-1 {
+        top: 8%;
+        left: 21%;
+    }
+}
+
+.icons-hexa-2 {
+    top: 26%;
+    left: 4%;
+}
+
+@media (min-width: 1920px) {
+    .icons-hexa-2 {
+        top: 22%;
+        left: -2%;
+    }
+}
+
+.icons-hexa-3 {
+    top: 45%;
+    left: 4%;
+}
+
+@media (min-width: 1920px) {
+    .icons-hexa-3 {
+        top: 50%;
+        left: -2%;
+    }
+}
+
+.icons-hexa-4 {
+    bottom: 27%;
+    left: 20%;
+}
+
+@media (min-width: 1920px) {
+    .icons-hexa-4 {
+        bottom: 10%;
+        left: 21%;
+    }
+}
+
+.icons-hexa-5 {
+    bottom: 16%;
+    left: 36%;
+}
+
+@media (min-width: 1920px) {
+    .icons-hexa-5 {
+        bottom: -6%;
+        left: 45%;
+    }
+}
+
+.icons-hexa-6 {
+    bottom: 27%;
+    right: 15%;
+}
+
+@media (min-width: 1920px) {
+    .icons-hexa-6 {
+        bottom: 10%;
+        right: -1%;
+    }
+}
+
+.icons-hexa-7 {
+    top: 36%;
+    left: 20%;
+}
+
+@media (min-width: 1920px) {
+    .icons-hexa-7 {
+        top: 36%;
+        left: 21%;
+    }
+}
+
+.icons-hexa-8 {
+    top: 36%;
+    right: 16%;
+}
+
+@media (min-width: 1920px) {
+    .icons-hexa-8 {
+        top: 36%;
+        right: -2%;
+    }
+}
+
+.icons-hexa-9 {
+    top: 26%;
+    right: 32%;
+}
+
+@media (min-width: 1920px) {
+    .icons-hexa-9 {
+        top: 22%;
+        right: 21%;
+    }
+}
+
+.icons-hexa-10 {
+    top: 46%;
+    right: 32%;
+}
+
+@media (min-width: 1920px) {
+    .icons-hexa-10 {
+        top: 50%;
+        right: 23%;
+    }
+}
+
+#slider_1 .slider_1 h1 {
+    font-size: 70px;
+}
+
+#slider_1 .slider_1 h1 {
+    color: #fff;
+    padding: 0 10px;
+    line-height: 95px;
+}
+
+.row-1 {
+    margin: 0 0 1em;
+}
+
+.row-1 .type-wrap {
+    padding: 0 10px;
+    line-height: .4;
+    margin: 2em 0;
+}
+
+#typed {
+    font-size: 70px;
+    font-weight: 700;
+    margin: 0;
+    color: #00afef;
+}
+
+.typed-cursor.typed-cursor--blink {
+    animation: typedjsBlink 0.7s infinite;
+    -webkit-animation: typedjsBlink 0.7s infinite;
+    animation: typedjsBlink 0.7s infinite;
 }
