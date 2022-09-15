@@ -1,4 +1,4 @@
-/* .democ {
+.democ {
     background: linear-gradient(112deg, #ffffff 50%, antiquewhite 50%);
     max-width: 900px;
     margin: auto;
@@ -59,7 +59,7 @@
 }
 
 i {
-    background-color: rgb(223, 56, 89);
+    background-color: #01246a;
     padding: 1.4rem;
 }
 
@@ -81,4 +81,4 @@ i {
 .carousel-control-next {
     transition: none;
     opacity: unset;
-} */
+}

@@ -92,3 +92,16 @@
     width: 5rem;
   }
 }
+
+.procom {
+  background-color: #01246a;
+}
+
+.procom img {
+  cursor: pointer;
+}
+
+.procom img:hover {
+  transition: 0.8s;
+  transform: scale(1.1);
+}

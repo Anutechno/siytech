@@ -17,7 +17,7 @@ const Sfooter = () => {
               <Nav.Link>Contact Us</Nav.Link>
             </div>
             <div className="col-md-3 lnk">
-              <h3>OUR SERVICES</h3>
+              <h3>Our Services</h3>
               <Nav.Link>Web Services</Nav.Link>
               <Nav.Link>Mobility Solution</Nav.Link>
               <Nav.Link>Business Analysis</Nav.Link>
@@ -25,7 +25,7 @@ const Sfooter = () => {
               <Nav.Link>Software Development</Nav.Link>
             </div>
             <div className="col-md-3 lnk">
-              <h3>OUR SERVICES</h3>
+              <h3>Quick Links</h3>
               <Nav.Link>Web Services</Nav.Link>
               <Nav.Link>Web Services</Nav.Link>
               <Nav.Link>Web Services</Nav.Link>
