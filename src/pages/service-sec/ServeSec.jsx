@@ -27,12 +27,12 @@ const ServeSec = () => {
                 </p>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 comser">
               <img src="./pic/plan.jpg" alt="" className="ps5" />{" "}
             </div>
           </div>
           <div className="d-flex prmg">
-            <div className="col-md-6">
+            <div className="col-md-6 comser">
               {" "}
               <img src="./pic/figma.jpg" alt="" />
             </div>
@@ -58,13 +58,13 @@ const ServeSec = () => {
                 </p>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 comser">
               {" "}
               <img src="./pic/content.jpg" alt="" className="ps5" />
             </div>
           </div>
           <div className="d-flex prmg">
-            <div className="col-md-6">
+            <div className="col-md-6 comser">
               {" "}
               <img src="./pic/test.png" alt="" />
             </div>
@@ -91,7 +91,7 @@ const ServeSec = () => {
                 </p>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 comser">
               {" "}
               <img src="./pic/dploy.jpg" alt="" className="ps5" />
             </div>
