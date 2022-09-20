@@ -3,7 +3,9 @@ import ComSer from "../comserve/ComSer";
 import MainSec from "../main-sec/MainSec";
 import Projectd from "../projectd/Projectd";
 import ServeSec from "../service-sec/ServeSec";
+import TechnoUse from "../technouse/TechnoUse";
 import Testimonial from "../testimonial/Testimonial";
+
 
 import "./home.css";
 
@@ -18,6 +20,9 @@ function Home() {
       </section>
       <section>
         <ComSer />
+      </section>
+      <section>
+        <TechnoUse />
       </section>
       <section>
         <Projectd />

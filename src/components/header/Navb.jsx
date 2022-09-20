@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import { Link } from "react-router-dom";
 
 const Navb = () => {
   return (
@@ -15,7 +16,7 @@ const Navb = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto nav-elm">
-            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
             <NavDropdown title="Services" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
@@ -38,10 +39,18 @@ const Navb = () => {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#link">Products</Nav.Link>
-            <Nav.Link href="#link">Portfolio</Nav.Link>
-            <Nav.Link href="#link">About Us</Nav.Link>
-            <Nav.Link href="#link">Contact Us</Nav.Link>
+            {/* <Nav.Link href="/product"> */}
+              <Link to="/product">Products</Link>
+            {/* </Nav.Link> */}
+            {/* <Nav.Link href="/portfolio"> */}
+              <Link to="/portfolio">Portfolio</Link>
+            {/* </Nav.Link> */}
+            {/* <Nav.Link href="/about"> */}
+              <Link to="/about">About Us</Link>
+            {/* </Nav.Link> */}
+            {/* <Nav.Link href="/contacts"> */}
+              <Link to="/contacts">Contact Us</Link>
+            {/* </Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
