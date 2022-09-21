@@ -13,7 +13,7 @@ export default function RootFile() {
       <Router>
         <Routes>
           <Route exact path="/" element={<Routsss />} />
-          <Route exact path="/product" element={<ProductPg />} />
+          <Route exact path="/career" element={<ProductPg />} />
           <Route exact path="/portfolio" element={<PortfolioPg />} />
           <Route exact path="/about" element={<AboutUs />} />
           <Route exact path="/contacts" element={<ContactUs />} />

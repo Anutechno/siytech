@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const BootAbUs = () => {
   return (
@@ -43,9 +44,9 @@ const BootAbUs = () => {
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <a href="#" class="btn btn-light px-5 rounded-pill shadow-sm">
+                <Link to="#" class="btn btn-light px-5 rounded-pill shadow-sm">
                   Learn More
-                </a>
+                </Link>
               </div>
               <div class="col-lg-5 px-5 mx-auto order-1 order-lg-2">
                 <img
@@ -70,9 +71,9 @@ const BootAbUs = () => {
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <a href="#" class="btn btn-light px-5 rounded-pill shadow-sm">
+                <Link to="#" class="btn btn-light px-5 rounded-pill shadow-sm">
                   Learn More
-                </a>
+                </Link>
               </div>
             </div>
           </div>

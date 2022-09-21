@@ -1,0 +1,30 @@
+.por{
+    color: #0e0e16;
+    font-weight: 600;
+}
+.im img {
+    width: 95%;
+    height: 18rem;
+    box-shadow: 9px 10px 15px 10px #6d6e72;
+    border-radius: 14px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.awm span {
+    font-size: 19px;
+    font-weight: 600;
+    background-color: #0e0e16;
+    color: #fff;
+    border-radius: 23px;
+    padding: 6px 41px;
+    cursor: pointer;
+}
+.awm span:hover {
+    box-shadow: 9px 10px 15px 10px #6d6e72;
+    transition: 0.4s;
+}
+.im img:hover {
+    box-shadow: 9px 10px 15px 10px #546dce;
+    transition: 0.4s;
+}

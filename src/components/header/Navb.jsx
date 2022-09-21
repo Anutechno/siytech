@@ -10,7 +10,7 @@ const Navb = () => {
   return (
     <Navbar className="bgclr" expand="lg">
       <Container className="fld">
-        <Navbar.Brand href="#home" className="logodiv">
+        <Navbar.Brand href="/" className="logodiv">
           <img src="./pic/siyatech.png" alt="" className="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -39,17 +39,17 @@ const Navb = () => {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
-            {/* <Nav.Link href="/product"> */}
-              <Link to="/product">Products</Link>
-            {/* </Nav.Link> */}
             {/* <Nav.Link href="/portfolio"> */}
-              <Link to="/portfolio">Portfolio</Link>
+            <Link to="/portfolio">Portfolio</Link>
+            {/* </Nav.Link> */}
+            {/* <Nav.Link href="/product"> */}
+            <Link to="/career">Careers</Link>
             {/* </Nav.Link> */}
             {/* <Nav.Link href="/about"> */}
-              <Link to="/about">About Us</Link>
+            <Link to="/about">About Us</Link>
             {/* </Nav.Link> */}
             {/* <Nav.Link href="/contacts"> */}
-              <Link to="/contacts">Contact Us</Link>
+            <Link to="/contacts">Contact Us</Link>
             {/* </Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
